@@ -1,0 +1,60 @@
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+    }
+    label{
+
+      font-size: 20px;
+      padding : 5px;
+
+    }
+
+    form{
+
+
+
+      padding: 12px 15px;
+
+      margin: 25px 25px;
+
+    }
+
+    input,a{
+
+      border : 1px solid #553c9a; 
+
+      border-radius: 10px;
+      padding : 5px;
+
+      background-image: linear-gradient(to left, #553c9a, #b393d3);
+      color:white;
+
+    }
+   
+
+   h2{
+    text-align: center;
+
+    padding: 20px;
+
+    font-size:  60px;
+    color: white;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+
+    text-shadow: 3px 1px 2px black;
+
+    opacity: 0.7;
+  }
+  input[type=submit]{
+    margin-left:10px;
+  }
+
+  input[type=submit]:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
